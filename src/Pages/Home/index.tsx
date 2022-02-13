@@ -1,10 +1,8 @@
-import Navbar from 'react-bootstrap/Navbar'
-import { Nav } from 'react-bootstrap'
-
+import Background from "../../Assets/priceisright.png"
 const Home = () => {
     return(
         <div>
-        
+            <img src={Background}/>
         </div>
     )
 }
